@@ -5107,7 +5107,7 @@ body:not(.index-page) .page-title .breadcrumbs ol li + li::before {
 body.service-details-page .service-hero.call-to-action,
 body.service-details-page .service-hero {
   background: #ffffff !important;
-  color: #111827; #kembalikan ke default !important
+  color: #111827 !important;
   overflow: visible !important;
 }
 
@@ -5122,11 +5122,11 @@ body.service-details-page .service-hero .container::after {
 body.service-details-page .service-hero h1,
 body.service-details-page .service-hero h2,
 body.service-details-page .service-hero h3 {
-  color: #111827 !important;
+  color: #111827; #default ke !important
 }
 
 body.service-details-page .service-hero p {
-  color: #4b5563 !important;
+  color: #4b5563; #default ke !important
 }
 
 body.service-details-page .service-hero img {
