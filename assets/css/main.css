@@ -3640,18 +3640,6 @@ section,
   background: radial-gradient(circle at 16% 26%, rgba(229, 9, 20, 0.08), transparent 32%), linear-gradient(135deg, #fff 0%, #fff 48%, #f6f7f9 48%, #fff 100%);
   z-index: 0;
 }
-.hero:after {
-  content: '';
-  position: absolute;
-  right: -90px;
-  bottom: -120px;
-  width: 390px;
-  height: 390px;
-  background: linear-gradient(135deg, var(--mas-red), #ff4b55);
-  clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
-  opacity: 0.95;
-  z-index: 1;
-}
 .hero .carousel,
 .hero .carousel-inner,
 .hero .carousel-item {
@@ -4131,19 +4119,6 @@ section#hero #hero-carousel .carousel-item::before {
   z-index: 0 !important;
 }
 
-section#hero #hero-carousel .carousel-item::after {
-  content: '' !important;
-  position: absolute !important;
-  right: -70px !important;
-  bottom: -95px !important;
-  width: 360px !important;
-  height: 360px !important;
-  background: linear-gradient(135deg, #e50914, #b80009) !important;
-  clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%) !important;
-  opacity: 0.96 !important;
-  z-index: 1 !important;
-}
-
 /* Gambar carousel dipaksa hanya area kanan */
 section#hero #hero-carousel .carousel-item > img {
   position: absolute !important;
@@ -4226,6 +4201,7 @@ section#hero #hero-carousel p {
   margin: 0 0 32px !important;
   color: #50545e !important;
   font-size: 18px !important;
+  font-weight: 600;
   line-height: 1.75 !important;
   text-shadow: none !important;
 }
@@ -4549,19 +4525,6 @@ section#hero #hero-carousel .carousel-item:before {
   inset: 0 !important;
   background: radial-gradient(circle at 13% 18%, rgba(251, 1, 1, 0.09), transparent 29%), linear-gradient(105deg, #fff 0%, #fff 48%, #f3f3f4 48%, #fff 100%) !important;
   z-index: 0 !important;
-}
-section#hero #hero-carousel .carousel-item:after {
-  content: '' !important;
-  position: absolute !important;
-  right: -110px !important;
-  bottom: -110px !important;
-  width: 430px !important;
-  height: 430px !important;
-  background: linear-gradient(135deg, var(--mas-red), var(--mas-red-dark)) !important;
-  border-radius: 90px !important;
-  transform: rotate(12deg);
-  z-index: 1 !important;
-  opacity: 0.95 !important;
 }
 section#hero #hero-carousel .carousel-item > img {
   position: absolute !important;
