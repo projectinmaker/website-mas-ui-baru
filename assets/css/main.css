@@ -3666,17 +3666,6 @@ section,
   padding: 9px 14px 9px 30px;
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
 }
-.hero .carousel-item:after {
-  content: '';
-  position: absolute;
-  left: calc(50% - 505px);
-  top: 129px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--mas-red);
-  z-index: 4;
-}
 .hero .carousel-item > img {
   position: absolute !important;
   right: calc(50% - 590px);
