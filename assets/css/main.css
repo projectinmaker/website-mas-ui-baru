@@ -5107,7 +5107,7 @@ body:not(.index-page) .page-title .breadcrumbs ol li + li::before {
 body.service-details-page .service-hero.call-to-action,
 body.service-details-page .service-hero {
   background: #ffffff !important;
-  color: #111827 !important;
+  color: #111827; #kembalikan ke default !important
   overflow: visible !important;
 }
 
